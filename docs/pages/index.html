@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta
       name="description"
-      content="ティッシュ投げ選手権を、計測、記録、分析、運営システムで拡張するDXプロジェクト。"
+      content="ティッシュ投げ選手権の運営・企画、現在のシステム、今後のシステム構想をまとめたプロジェクト紹介ページ。"
     >
     <title>ティッシュ投げ選手権 DX</title>
     <link rel="stylesheet" href="./style.css">
@@ -17,10 +17,10 @@
         <span>ティッシュ投げ選手権 DX</span>
       </a>
       <nav class="site-nav" aria-label="ページ内ナビゲーション">
-        <a href="#about">競技</a>
-        <a href="#team">運営</a>
-        <a href="#system">進化</a>
-        <a href="#future">構想</a>
+        <a href="#operations">運営・企画</a>
+        <a href="#current-system">今のシステム</a>
+        <a href="#future-system">今後のシステム</a>
+        <a href="#join">関わり方</a>
       </nav>
     </header>
 
@@ -41,67 +41,96 @@
         </div>
         <div class="hero-content">
           <p class="eyebrow">Niconico Chokaigi Creator Cross</p>
-          <h1 id="hero-title" aria-label="いつまでも本気の遊びを。本気と技術は背中合わせだ。">
-            <span class="title-desktop" aria-hidden="true">
-              <span>いつまでも本気の</span>
-              <span>遊びを。</span>
-              <span>本気と技術は</span>
-              <span>背中合わせだ。</span>
-            </span>
-            <span class="title-mobile" aria-hidden="true">
-              <span>いつまでも</span>
-              <span>本気の遊びを。</span>
-              <span>本気と技術は</span>
-              <span>背中合わせだ。</span>
-            </span>
-          </h1>
+          <h1 id="hero-title">本気の遊びを、運営と技術で育てる。</h1>
           <p class="hero-lead">
-            ティッシュ投げ選手権を、計測、記録、分析、運営システムで拡張するDXプロジェクト。
-            開発者の技術力で競技をさらに深く、さらに運営しやすく、さらに面白くする。
+            ティッシュ投げ選手権の運営・企画、現在のシステム、今後のシステム構想をまとめたページ。
+            企画の文脈と現場の課題を知ったうえで、仕組みを一緒に育てていく。
           </p>
           <div class="hero-actions" aria-label="主要導線">
-            <a class="button button-primary" href="https://github.com/tsumasaki-kurageya/tissue-throw-gp">
-              GitHubを見る
-            </a>
-            <a class="button button-secondary" href="#future">DX構想を見る</a>
+            <a class="button button-primary" href="#operations">運営・企画を知る</a>
+            <a class="button button-secondary" href="#current-system">システムを見る</a>
+            <a class="button button-secondary" href="#join">関わり方を見る</a>
           </div>
         </div>
       </section>
 
-      <section class="section intro-section" aria-labelledby="event-title">
-        <div class="section-inner two-column">
-          <div>
-            <p class="section-kicker">Event</p>
-            <h2 id="event-title">ニコニコ超会議とクリエイタークロス</h2>
-          </div>
-          <div class="lead-block">
-            <p>
-              <a href="https://chokaigi.jp/">ニコニコ超会議</a>は、毎年幕張メッセで開催される、ネットとリアルの文化が交差する大型イベント。
-              <a href="https://chokaigi.jp/2026/creatorcross/">クリエイタークロス</a>は、ニコニコ超会議の目玉コンテンツ。個人やチームが自分たちの活動を展示、発表、販売できるイベント。
-            </p>
-            <div class="event-media">
-              <figure>
-                <img src="./assets/optimized/chokaigi2026.webp" alt="ニコニコ超会議2026のビジュアル" loading="lazy">
-                <figcaption>ニコニコ超会議</figcaption>
-              </figure>
-              <figure>
-                <img src="./assets/optimized/creator_cross.webp" alt="クリエイタークロスのビジュアル" loading="lazy">
-                <figcaption>クリエイタークロス</figcaption>
-              </figure>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="section" id="about" aria-labelledby="about-title">
+      <section class="section context-section" aria-labelledby="context-title">
         <div class="section-inner">
           <div class="section-heading">
-            <p class="section-kicker">Competition</p>
-            <h2 id="about-title">ティッシュ投げ選手権とは</h2>
+            <p class="section-kicker">Context</p>
+            <h2 id="context-title">このページの読み方</h2>
             <p>
-              ティッシュ投げ選手権は、クリエイタークロスで「ぼくたち」というチームが運営する参加型企画。
+              読者を完全に分けるためのページではない。運営、企画、システム開発を横断して、ティッシュ投げ選手権を育てるための全体像を置いている。
+            </p>
+          </div>
+
+          <div class="reader-grid" aria-label="想定読者と読み方">
+            <article class="reader-card">
+              <span>01</span>
+              <h3>運営・企画を知りたい人</h3>
+              <p>競技の概要、開催実績、運営メンバー、活動方針を知る。</p>
+              <a href="#operations">運営・企画へ</a>
+            </article>
+            <article class="reader-card">
+              <span>02</span>
+              <h3>今のシステムを知りたい人</h3>
+              <p>記録入力、ランキング表示、Webアプリ化までの変遷を知る。</p>
+              <a href="#current-system">今のシステムへ</a>
+            </article>
+            <article class="reader-card">
+              <span>03</span>
+              <h3>今後関わりたい人</h3>
+              <p>これから作りたい仕組み、必要な技術領域、関わり方を知る。</p>
+              <a href="#future-system">今後のシステムへ</a>
+            </article>
+          </div>
+
+          <div class="manifesto-panel">
+            <p>
+              ティッシュ投げ選手権のシステム開発は、運営から切り離されたものではない。
+              参加者がどこで迷うか。スタッフがどこで詰まるか。ランキングがいつ盛り上がるか。
+              記録が残ることで参加者の体験がどう変わるか。
+            </p>
+            <p>
+              そうした現場の文脈を拾い上げ、仕組みに落とし込むことが、このプロジェクトのシステムエンジニアリング。
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section operations-section" id="operations" aria-labelledby="operations-title">
+        <div class="section-inner">
+          <div class="chapter-label">1. 運営・企画</div>
+          <div class="section-heading">
+            <p class="section-kicker">Operations / Planning</p>
+            <h2 id="operations-title">まず、何を本気で遊んでいるのか。</h2>
+            <p>
+              ティッシュ投げ選手権は、ニコニコ超会議のクリエイタークロスで「ぼくたち」が運営する参加型企画。
               幕張メッセでティッシュを投げ、飛距離を競う。
             </p>
+          </div>
+
+          <div class="two-column event-block">
+            <div>
+              <p class="section-kicker">Event</p>
+              <h3>ニコニコ超会議とクリエイタークロス</h3>
+            </div>
+            <div class="lead-block">
+              <p>
+                <a href="https://chokaigi.jp/">ニコニコ超会議</a>は、毎年幕張メッセで開催される、ネットとリアルの文化が交差する大型イベント。
+                <a href="https://chokaigi.jp/2026/creatorcross/">クリエイタークロス</a>は、個人やチームが自分たちの活動を展示、発表、販売できる場。
+              </p>
+              <div class="event-media">
+                <figure>
+                  <img src="./assets/optimized/chokaigi2026.webp" alt="ニコニコ超会議2026のビジュアル" loading="lazy">
+                  <figcaption>ニコニコ超会議</figcaption>
+                </figure>
+                <figure>
+                  <img src="./assets/optimized/creator_cross.webp" alt="クリエイタークロスのビジュアル" loading="lazy">
+                  <figcaption>クリエイタークロス</figcaption>
+                </figure>
+              </div>
+            </div>
           </div>
 
           <div class="competition-layout">
@@ -165,67 +194,95 @@
               <figcaption>記録が残る競技体験</figcaption>
             </figure>
           </div>
+
+          <div class="team-block" aria-labelledby="team-title">
+            <div class="section-heading">
+              <p class="section-kicker">Team</p>
+              <h3 id="team-title">運営「ぼくたち」</h3>
+              <p>
+                本気で遊ぶことを目的とする男たち。クリエイタークロスでは「みんなを主役に」というコンセプトで、自分たちは競技スタッフに徹する。
+              </p>
+            </div>
+            <figure class="team-portrait">
+              <img src="./assets/optimized/bokutachi.webp" alt="ティッシュ投げ選手権を運営するぼくたちの集合ビジュアル" loading="lazy">
+              <figcaption>ぼくたち</figcaption>
+            </figure>
+
+            <div class="member-grid">
+              <article class="member-card">
+                <img class="avatar" src="./assets/optimized/suseo.webp" alt="すせおのプロフィール画像" loading="lazy">
+                <h3>すせお</h3>
+                <p>ぼくたちのリーダー。ニコニコ超会議の人として多くのニコニコ民に知られている。</p>
+              </article>
+              <article class="member-card">
+                <img class="avatar" src="./assets/optimized/pe.webp" alt="ぺーのプロフィール画像" loading="lazy">
+                <h3>ぺー</h3>
+                <p>ぼくたちのクオリティ担当。歌、ギター、ダンス、パティシエと多才。すべてにこだわりを持つ。</p>
+              </article>
+              <article class="member-card">
+                <img class="avatar" src="./assets/optimized/so-chan.webp" alt="そーちゃんのプロフィール画像" loading="lazy">
+                <h3>そーちゃん</h3>
+                <p>ぼくたちのイケメンマッチョ担当。誰よりもふざけており、隙あらばちょけるが、根は真面目。</p>
+              </article>
+              <article class="member-card">
+                <img class="avatar" src="./assets/optimized/tsumasaki.webp" alt="つまさっきーのプロフィール画像" loading="lazy">
+                <h3>つまさっきー</h3>
+                <p>ぼくたちのエンジニア担当。準備から開催までテクノロジーで支援する裏方。</p>
+              </article>
+              <article class="member-card">
+                <img class="avatar" src="./assets/optimized/komikomi.webp" alt="こみこみのプロフィール画像" loading="lazy">
+                <h3>こみこみ</h3>
+                <p>ぼくたちのオールラウンダー。空いた穴を埋め、現場を前に進める存在。</p>
+              </article>
+              <article class="member-card">
+                <img class="avatar" src="./assets/optimized/yu-suke.webp" alt="ゆうすけのプロフィール画像" loading="lazy">
+                <h3>ゆうすけ</h3>
+                <p>ぼくたちのカメラマン。いつもニコニコしていて、動画撮影と編集に情熱を持つ。</p>
+              </article>
+            </div>
+          </div>
         </div>
       </section>
 
-      <section class="section team-section" id="team" aria-labelledby="team-title">
+      <section class="section bridge-section" aria-labelledby="why-system-title">
         <div class="section-inner">
           <div class="section-heading">
-            <p class="section-kicker">Team</p>
-            <h2 id="team-title">運営紹介</h2>
+            <p class="section-kicker">Why System</p>
+            <h2 id="why-system-title">なぜシステムが必要になったのか。</h2>
             <p>
-              ティッシュ投げ選手権は、「ぼくたち」によって運営されている。
-              本気で遊ぶことを目的とする男たち。クリエイタークロスでは「みんなを主役に」というコンセプトで、自分たちは競技スタッフに徹する。
+              参加者が増えるほど、記録入力、ランキング更新、集計、表示、振り返りが重くなる。
+              現場の熱量を落とさず、参加者の体験を広げるために、運営システムが必要になった。
             </p>
           </div>
-          <figure class="team-portrait">
-            <img src="./assets/optimized/bokutachi.webp" alt="ティッシュ投げ選手権を運営するぼくたちの集合ビジュアル" loading="lazy">
-            <figcaption>ぼくたち</figcaption>
-          </figure>
 
-          <div class="member-grid">
-            <article class="member-card">
-              <img class="avatar" src="./assets/optimized/suseo.webp" alt="すせおのプロフィール画像" loading="lazy">
-              <h3>すせお</h3>
-              <p>ぼくたちのリーダー。ニコニコ超会議の人として多くのニコニコ民に知られている。</p>
+          <div class="problem-grid" aria-label="運営課題">
+            <article class="problem-card">
+              <span>Issue 01</span>
+              <h3>記録入力が詰まる</h3>
+              <p>参加者が増えると、スタッフの入力作業と確認作業がボトルネックになる。</p>
             </article>
-            <article class="member-card">
-              <img class="avatar" src="./assets/optimized/pe.webp" alt="ぺーのプロフィール画像" loading="lazy">
-              <h3>ぺー</h3>
-              <p>ぼくたちのクオリティ担当。歌、ギター、ダンス、パティシエと多才。すべてにこだわりを持つ。</p>
+            <article class="problem-card">
+              <span>Issue 02</span>
+              <h3>ランキング更新が重い</h3>
+              <p>会場で盛り上がる瞬間を逃さないためには、記録反映の即時性が必要になる。</p>
             </article>
-            <article class="member-card">
-              <img class="avatar" src="./assets/optimized/so-chan.webp" alt="そーちゃんのプロフィール画像" loading="lazy">
-              <h3>そーちゃん</h3>
-              <p>ぼくたちのイケメンマッチョ担当。誰よりもふざけており、隙あらばちょけるが、根は真面目。</p>
-            </article>
-            <article class="member-card">
-              <img class="avatar" src="./assets/optimized/tsumasaki.webp" alt="つまさっきーのプロフィール画像" loading="lazy">
-              <h3>つまさっきー</h3>
-              <p>ぼくたちのエンジニア担当。準備から開催までテクノロジーで支援する裏方。</p>
-            </article>
-            <article class="member-card">
-              <img class="avatar" src="./assets/optimized/komikomi.webp" alt="こみこみのプロフィール画像" loading="lazy">
-              <h3>こみこみ</h3>
-              <p>ぼくたちのオールラウンダー。空いた穴を埋め、現場を前に進める存在。</p>
-            </article>
-            <article class="member-card">
-              <img class="avatar" src="./assets/optimized/yu-suke.webp" alt="ゆうすけのプロフィール画像" loading="lazy">
-              <h3>ゆうすけ</h3>
-              <p>ぼくたちのカメラマン。いつもニコニコしていて、動画撮影と編集に情熱を持つ。</p>
+            <article class="problem-card">
+              <span>Issue 03</span>
+              <h3>振り返りが難しい</h3>
+              <p>記録を残すだけでなく、次回の運営改善や競技分析に使える形で蓄積したい。</p>
             </article>
           </div>
         </div>
       </section>
 
-      <section class="section system-section" id="system" aria-labelledby="system-title">
+      <section class="section current-system-section" id="current-system" aria-labelledby="current-system-title">
         <div class="section-inner">
+          <div class="chapter-label">2. 今のシステム</div>
           <div class="section-heading">
-            <p class="section-kicker">System</p>
-            <h2 id="system-title">システムの生い立ち</h2>
+            <p class="section-kicker">Current System</p>
+            <h2 id="current-system-title">企画が、少しずつ仕組みになってきた。</h2>
             <p>
-              ティッシュ投げ選手権の運営システムは、開催ごとに少しずつ進化してきた。
-              最初は記録入力とランキング表示を中心に、現在はWebアプリによる現場運営へ広がっている。
+              最初は記録入力とランキング表示から始まり、現在はWebアプリによる現場運営へ広がっている。
             </p>
           </div>
 
@@ -312,132 +369,176 @@
               </div>
             </article>
           </div>
+
+          <div class="current-detail-grid">
+            <article class="detail-card">
+              <h3>現在できていること</h3>
+              <ul>
+                <li>スマホブラウザからの記録入力</li>
+                <li>PCブラウザでのランキング表示</li>
+                <li>現場運営向けの専用UI化</li>
+              </ul>
+            </article>
+            <article class="detail-card">
+              <h3>現在残っている課題</h3>
+              <ul>
+                <li>計測値の自動連携</li>
+                <li>記録データの長期蓄積と分析</li>
+                <li>参加者体験と運営効率の両立</li>
+              </ul>
+            </article>
+          </div>
         </div>
       </section>
 
-      <section class="section future-section" id="future" aria-labelledby="future-title">
+      <section class="section future-system-section" id="future-system" aria-labelledby="future-system-title">
         <div class="section-inner">
+          <div class="chapter-label">3. 今後のシステム</div>
           <div class="section-heading">
-            <p class="section-kicker">Vision</p>
-            <h2 id="future-title">DXが目指す世界</h2>
+            <p class="section-kicker">Future System</p>
+            <h2 id="future-system-title">これから、競技体験そのものを拡張する。</h2>
             <p>
-              現場の詰まりをほどき、計測、記録、分析、観戦をひとつの流れにする。
+              目指すのは、単に記録を取るだけの仕組みではない。計測、記録、分析、観戦、運営をひとつの流れにすること。
             </p>
           </div>
 
-          <div class="vision-grid" aria-label="現状の問題と対応する課題">
+          <div class="vision-grid" aria-label="今後のシステム構想">
             <article class="vision-card">
-              <span class="vision-icon">問題 01</span>
-              <h3>計測後の転記が重い</h3>
-              <div class="vision-link" aria-hidden="true">課題</div>
+              <span class="vision-icon">Next 01</span>
+              <h3>自動計測</h3>
               <p>距離計測器の通信を受け取り、自動でデータベースに記録。</p>
             </article>
             <article class="vision-card">
-              <span class="vision-icon">問題 02</span>
-              <h3>遠くに飛ぶ条件が不明</h3>
-              <div class="vision-link" aria-hidden="true">課題</div>
-              <p>風、湿度、フォームを集め、競技レベルを底上げ。</p>
+              <span class="vision-icon">Next 02</span>
+              <h3>競技データ分析</h3>
+              <p>風、湿度、フォームを集め、遠くに飛ぶ条件を分析。</p>
             </article>
             <article class="vision-card">
-              <span class="vision-icon">問題 03</span>
-              <h3>前年からの成長が見えない</h3>
-              <div class="vision-link" aria-hidden="true">課題</div>
-              <p>競技者向けマイアカウントで、個人記録と成長を可視化。</p>
+              <span class="vision-icon">Next 03</span>
+              <h3>マイアカウント</h3>
+              <p>競技者ごとの個人記録、参加履歴、成長を可視化。</p>
             </article>
             <article class="vision-card">
-              <span class="vision-icon">問題 04</span>
-              <h3>当日の現場が忙しい</h3>
-              <div class="vision-link" aria-hidden="true">課題</div>
-              <p>現場運営UIで、記録入力、ランキング更新、表示管理を効率化。</p>
+              <span class="vision-icon">Next 04</span>
+              <h3>現場運営UI</h3>
+              <p>記録入力、ランキング更新、表示管理を現場向けに最適化。</p>
             </article>
+          </div>
+
+          <div class="stack-block">
+            <div class="section-heading compact-heading">
+              <p class="section-kicker">Technology</p>
+              <h3>想定技術スタック</h3>
+            </div>
+            <div class="stack-diagram" aria-label="想定技術スタックの構成図">
+              <div class="stack-column stack-inputs">
+                <span class="stack-layer">Input</span>
+                <strong>計測・現場</strong>
+                <span>距離計測器</span>
+                <span>マイコン + HTTP</span>
+                <span>タブレット / スマホUI</span>
+              </div>
+              <div class="stack-connector" aria-hidden="true"></div>
+              <div class="stack-core">
+                <span class="stack-layer">Core</span>
+                <strong>REST API</strong>
+                <strong>RDB</strong>
+              </div>
+              <div class="stack-connector" aria-hidden="true"></div>
+              <div class="stack-column stack-outputs">
+                <span class="stack-layer">Output</span>
+                <strong>表示・分析</strong>
+                <span>ランキング表示</span>
+                <span>データ分析リッチUI</span>
+                <span>マーケティング向け軽量LP</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="dream-block">
+            <div class="section-heading compact-heading">
+              <p class="section-kicker">Future</p>
+              <h3>夢物語</h3>
+              <p>遊びの競技だからこそ、先端技術を遠慮なく試す。</p>
+            </div>
+
+            <div class="dream-board" aria-label="将来構想">
+              <article class="dream-card dream-ai">
+                <div class="dream-visual" aria-hidden="true">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+                <h3>AIフォーム分析</h3>
+                <p>投球映像から姿勢、リリース角、ブレを解析。</p>
+              </article>
+              <article class="dream-card dream-mr">
+                <div class="dream-visual" aria-hidden="true">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+                <h3>VR / MR観戦</h3>
+                <p>飛距離、軌道、環境データを空間上に重ねて表示。</p>
+              </article>
+              <article class="dream-card dream-frontier">
+                <div class="dream-visual" aria-hidden="true">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+                <h3>未知の技術実験場</h3>
+                <p>センサー、可視化、AIを競技会場で検証。</p>
+              </article>
+            </div>
           </div>
         </div>
       </section>
 
-      <section class="section stack-section" aria-labelledby="stack-title">
+      <section class="section join-section" id="join" aria-labelledby="join-title">
         <div class="section-inner">
           <div class="section-heading">
-            <p class="section-kicker">Technology</p>
-            <h2 id="stack-title">想定技術スタック</h2>
-          </div>
-          <div class="stack-diagram" aria-label="想定技術スタックの構成図">
-            <div class="stack-column stack-inputs">
-              <span class="stack-layer">Input</span>
-              <strong>計測・現場</strong>
-              <span>距離計測器</span>
-              <span>マイコン + HTTP</span>
-              <span>タブレット / スマホUI</span>
-            </div>
-            <div class="stack-connector" aria-hidden="true"></div>
-            <div class="stack-core">
-              <span class="stack-layer">Core</span>
-              <strong>REST API</strong>
-              <strong>RDB</strong>
-            </div>
-            <div class="stack-connector" aria-hidden="true"></div>
-            <div class="stack-column stack-outputs">
-              <span class="stack-layer">Output</span>
-              <strong>表示・分析</strong>
-              <span>ランキング表示</span>
-              <span>データ分析リッチUI</span>
-              <span>マーケティング向け軽量LP</span>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="section dream-section" aria-labelledby="dream-title">
-        <div class="section-inner">
-          <div class="section-heading">
-            <p class="section-kicker">Future</p>
-            <h2 id="dream-title">夢物語</h2>
-            <p>遊びの競技だからこそ、先端技術を遠慮なく試す。</p>
+            <p class="section-kicker">Join</p>
+            <h2 id="join-title">一緒に作りたい人へ。</h2>
+            <p>
+              必要なのは、実装だけではない。企画を理解し、現場を観察し、参加者体験をよくするために技術を使う人。
+            </p>
           </div>
 
-          <div class="dream-board" aria-label="将来構想">
-            <article class="dream-card dream-ai">
-              <div class="dream-visual" aria-hidden="true">
-                <span></span>
-                <span></span>
-                <span></span>
-              </div>
-              <h3>AIフォーム分析</h3>
-              <p>投球映像から姿勢、リリース角、ブレを解析。</p>
+          <div class="join-grid" aria-label="募集している技術領域">
+            <article class="join-card">
+              <span>Frontend</span>
+              <h3>現場UI / 表示UI</h3>
+              <p>記録入力、ランキング、管理画面、会場表示を作る。</p>
             </article>
-            <article class="dream-card dream-mr">
-              <div class="dream-visual" aria-hidden="true">
-                <span></span>
-                <span></span>
-                <span></span>
-              </div>
-              <h3>VR / MR観戦</h3>
-              <p>飛距離、軌道、環境データを空間上に重ねて表示。</p>
+            <article class="join-card">
+              <span>Backend</span>
+              <h3>API / DB</h3>
+              <p>記録保存、集計、認証、外部連携の基盤を作る。</p>
             </article>
-            <article class="dream-card dream-frontier">
-              <div class="dream-visual" aria-hidden="true">
-                <span></span>
-                <span></span>
-                <span></span>
-              </div>
-              <h3>未知の技術実験場</h3>
-              <p>センサー、可視化、AIを競技会場で検証。</p>
+            <article class="join-card">
+              <span>IoT</span>
+              <h3>計測器 / マイコン</h3>
+              <p>距離計測器やセンサーをシステムへつなぐ。</p>
+            </article>
+            <article class="join-card">
+              <span>Data / AI</span>
+              <h3>分析 / 可視化</h3>
+              <p>記録、環境、フォームを分析し、競技の奥深さを見える化する。</p>
             </article>
           </div>
-        </div>
-      </section>
 
-      <section class="closing" aria-labelledby="closing-title">
-        <div class="closing-inner">
-          <p class="section-kicker">Closing</p>
-          <h2 id="closing-title">技術は本気度を映し出す。</h2>
-          <p>
-            ティッシュ投げ選手権は、一見くだらないことを本気でやることに面白さがある。
-            本気で計測し、記録し、分析し、仕組みにすることに価値がある。
-          </p>
-          <p>本プロジェクトではこの信念の下、実装・検証をハイサイクルで進めていく。</p>
-          <a class="button button-primary" href="https://github.com/tsumasaki-kurageya/tissue-throw-gp">
-            GitHubリポジトリへ
-          </a>
+          <div class="closing-message">
+            <h3>本気の遊びを、本気のシステムエンジニアリングで育てていく。</h3>
+            <p>
+              ティッシュ投げ選手権は、競技であり、企画であり、現場運営であり、システム開発の題材でもある。
+              開発者にも運営の文脈を知ってほしい。運営者にも技術で広がる可能性を知ってほしい。
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="https://github.com/tsumasaki-kurageya/tissue-throw-gp">GitHubリポジトリへ</a>
+              <a class="button button-secondary" href="https://github.com/tsumasaki-kurageya/tissue-throw-gp/issues/1">関連Issueを見る</a>
+            </div>
+          </div>
         </div>
       </section>
     </main>
